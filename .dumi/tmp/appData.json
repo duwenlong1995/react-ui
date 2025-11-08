@@ -1,5 +1,5 @@
 {
-  "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+  "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
   "pkg": {
     "name": "@cui/ui",
     "version": "0.1.0",
@@ -76,7 +76,7 @@
       "echarts": "^6.0.0"
     }
   },
-  "pkgPath": "/Users/duchuanyou/Desktop/cursor_ui/package.json",
+  "pkgPath": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/package.json",
   "plugins": {
     "./node_modules/@umijs/core/dist/service/servicePlugin": {
       "config": {},
@@ -86,8 +86,8 @@
       },
       "enableBy": "register",
       "type": "preset",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/core/dist/service/servicePlugin.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/core/dist/service/servicePlugin.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/core/dist/service/servicePlugin",
       "key": "servicePlugin"
     },
@@ -95,12 +95,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 16
+        "register": 2
       },
       "enableBy": "register",
       "type": "preset",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/index.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/index.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "@umijs/preset-umi",
       "key": "umi"
     },
@@ -108,12 +108,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 1
       },
       "enableBy": "register",
       "type": "preset",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/preset.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/preset.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/dumi/dist/preset",
       "key": "dumi-preset"
     },
@@ -122,15 +122,15 @@
       "time": {
         "hooks": {
           "onStart": [
-            1
+            7
           ]
         },
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/registerMethods.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/registerMethods.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/registerMethods",
       "key": "registerMethods"
     },
@@ -146,21 +146,27 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/404/404.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/404/404.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/404/404",
       "key": "404"
     },
     "./node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev": {
       "config": {},
       "time": {
-        "hooks": {},
-        "register": 0
+        "hooks": {
+          "onDevCompileDone": [
+            0,
+            0,
+            0
+          ]
+        },
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev",
       "key": "aiDev"
     },
@@ -169,28 +175,35 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            7
+            6
+          ],
+          "onGenerateFiles": [
+            2
           ]
         },
-        "register": 12
+        "register": 11
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/appData/appData.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/appData/appData.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/appData/appData",
       "key": "appData"
     },
     "./node_modules/@umijs/preset-umi/dist/features/appData/umiInfo": {
       "config": {},
       "time": {
-        "hooks": {},
-        "register": 1
+        "hooks": {
+          "addEntryCode": [
+            0
+          ]
+        },
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/appData/umiInfo.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/appData/umiInfo.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/appData/umiInfo",
       "key": "umiInfo"
     },
@@ -203,14 +216,144 @@
           ],
           "onCheck": [
             0
+          ],
+          "onCheckCode": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/check/check.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/check/check.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/check/check",
       "key": "check"
     },
@@ -222,12 +365,12 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/check/babel722.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/check/babel722.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/check/babel722",
       "key": "babel722"
     },
@@ -235,12 +378,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting",
       "key": "codeSplitting"
     },
@@ -252,12 +395,12 @@
             0
           ]
         },
-        "register": 6
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins",
       "key": "configPlugins"
     },
@@ -1043,7 +1186,7 @@
       "enableBy": "register",
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       }
     },
     "virtual: config-babelLoaderCustomize": {
@@ -1087,10 +1230,10 @@
       "config": {
         "default": {
           "umi": "@@/exports",
-          "react": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/react",
-          "react-dom": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/react-dom",
-          "react-router": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/react-router",
-          "react-router-dom": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/react-router-dom"
+          "react": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/react",
+          "react-dom": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/react-dom",
+          "react-router": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/react-router",
+          "react-router-dom": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/react-router-dom"
         }
       },
       "type": "plugin",
@@ -1104,12 +1247,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin",
       "key": "crossorigin"
     },
@@ -1121,25 +1264,29 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand",
       "key": "depsOnDemand"
     },
     "./node_modules/@umijs/preset-umi/dist/features/devTool/devTool": {
       "config": {},
       "time": {
-        "hooks": {},
+        "hooks": {
+          "addBeforeMiddlewares": [
+            7
+          ]
+        },
         "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/devTool/devTool.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/devTool/devTool.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/devTool/devTool",
       "key": "devTool"
     },
@@ -1147,12 +1294,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 44
+        "register": 40
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker",
       "key": "esbuildHelperChecker"
     },
@@ -1160,12 +1307,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 29
+        "register": 16
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/esmi/esmi.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/esmi/esmi.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/esmi/esmi",
       "key": "esmi"
     },
@@ -1175,14 +1322,20 @@
         "hooks": {
           "onCheck": [
             0
+          ],
+          "onGenerateFiles": [
+            1
+          ],
+          "addRuntimePlugin": [
+            0
           ]
         },
         "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic",
       "key": "exportStatic"
     },
@@ -1192,27 +1345,42 @@
         "hooks": {
           "modifyAppData": [
             0
+          ],
+          "addBeforeMiddlewares": [
+            0
+          ],
+          "modifyHTMLFavicon": [
+            0,
+            0,
+            0
           ]
         },
         "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/favicons/favicons.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/favicons/favicons.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/favicons/favicons",
       "key": "favicons"
     },
     "./node_modules/@umijs/preset-umi/dist/features/helmet/helmet": {
       "config": {},
       "time": {
-        "hooks": {},
+        "hooks": {
+          "onGenerateFiles": [
+            1
+          ],
+          "addRuntimePlugin": [
+            0
+          ]
+        },
         "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/helmet/helmet.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/helmet/helmet.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/helmet/helmet",
       "key": "helmet"
     },
@@ -1220,12 +1388,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/icons/icons.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/icons/icons.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/icons/icons",
       "key": "icons"
     },
@@ -1234,14 +1402,17 @@
       "time": {
         "hooks": {
           "onStart": [
+            1
+          ],
+          "addBeforeMiddlewares": [
             0
           ]
         },
-        "register": 19
+        "register": 17
       },
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/mock/mock",
       "key": "mock"
     },
@@ -1249,12 +1420,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/mpa/mpa.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/mpa/mpa.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/mpa/mpa",
       "key": "mpa"
     },
@@ -1262,24 +1433,32 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/okam/okam",
       "key": "okam"
     },
     "./node_modules/@umijs/preset-umi/dist/features/overrides/overrides": {
       "config": {},
       "time": {
-        "hooks": {},
+        "hooks": {
+          "onGenerateFiles": [
+            0
+          ],
+          "addEntryImports": [
+            0,
+            0
+          ]
+        },
         "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/overrides/overrides.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/overrides/overrides.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/overrides/overrides",
       "key": "overrides"
     },
@@ -1291,8 +1470,8 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency",
       "key": "phantomDependency"
     },
@@ -1302,26 +1481,38 @@
         "hooks": {
           "modifyConfig": [
             0
+          ],
+          "onGenerateFiles": [
+            47
+          ],
+          "addPolyfillImports": [
+            0,
+            0
           ]
         },
         "register": 1
       },
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill",
       "key": "polyfill"
     },
     "./node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill": {
       "config": {},
       "time": {
-        "hooks": {},
+        "hooks": {
+          "addPolyfillImports": [
+            0,
+            0
+          ]
+        },
         "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill",
       "key": "publicPathPolyfill"
     },
@@ -1333,8 +1524,8 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/prepare/prepare.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/prepare/prepare.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/prepare/prepare",
       "key": "prepare"
     },
@@ -1342,12 +1533,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch",
       "key": "routePrefetch"
     },
@@ -1359,34 +1550,46 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise",
       "key": "stagewise"
     },
     "./node_modules/@umijs/preset-umi/dist/features/terminal/terminal": {
       "config": {},
       "time": {
-        "hooks": {},
+        "hooks": {
+          "onGenerateFiles": [
+            0
+          ],
+          "addBeforeMiddlewares": [
+            0
+          ]
+        },
         "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/terminal/terminal.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/terminal/terminal.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/terminal/terminal",
       "key": "terminal"
     },
     "./node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles": {
       "config": {},
       "time": {
-        "hooks": {},
+        "hooks": {
+          "onGenerateFiles": [
+            6,
+            1
+          ]
+        },
         "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles",
       "key": "tmpFiles"
     },
@@ -1398,8 +1601,8 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader",
       "key": "clientLoader"
     },
@@ -1410,8 +1613,8 @@
         "register": 0
       },
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps",
       "key": "routeProps"
     },
@@ -1419,38 +1622,46 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/ssr/ssr.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/ssr/ssr.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/ssr/ssr",
       "key": "ssr"
     },
     "./node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes": {
       "config": {},
       "time": {
-        "hooks": {},
-        "register": 2
+        "hooks": {
+          "onGenerateFiles": [
+            199
+          ]
+        },
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes",
       "key": "configTypes"
     },
     "./node_modules/@umijs/preset-umi/dist/features/transform/transform": {
       "config": {},
       "time": {
-        "hooks": {},
-        "register": 2
+        "hooks": {
+          "addBeforeBabelPresets": [
+            0
+          ]
+        },
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/transform/transform.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/transform/transform.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/transform/transform",
       "key": "transform"
     },
@@ -1458,12 +1669,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport",
       "key": "lowImport"
     },
@@ -1471,12 +1682,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/vite/vite.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/vite/vite.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/vite/vite",
       "key": "vite"
     },
@@ -1487,8 +1698,8 @@
         "register": 2
       },
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute",
       "key": "apiRoute"
     },
@@ -1496,24 +1707,28 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 12
+        "register": 11
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/monorepo/redirect.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/monorepo/redirect.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/monorepo/redirect",
       "key": "monorepoRedirect"
     },
     "./node_modules/@umijs/preset-umi/dist/features/test/test": {
       "config": {},
       "time": {
-        "hooks": {},
-        "register": 1
+        "hooks": {
+          "onGenerateFiles": [
+            1
+          ]
+        },
+        "register": 0
       },
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/test/test.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/test/test.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/test/test",
       "key": "test"
     },
@@ -1521,12 +1736,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent",
       "key": "clickToComponent"
     },
@@ -1534,12 +1749,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/legacy/legacy.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/legacy/legacy.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/legacy/legacy",
       "key": "legacy"
     },
@@ -1547,12 +1762,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose",
       "key": "classPropertiesLoose"
     },
@@ -1560,11 +1775,11 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/webpack/webpack",
       "key": "preset-umi:webpack"
     },
@@ -1576,12 +1791,12 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/swc/swc.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/swc/swc.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/swc/swc",
       "key": "swc"
     },
@@ -1589,11 +1804,11 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/ui/ui",
       "key": "ui"
     },
@@ -1601,12 +1816,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/mako/mako.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/mako/mako.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/mako/mako",
       "key": "mako"
     },
@@ -1614,11 +1829,11 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/utoopack/utoopack.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/utoopack/utoopack.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/utoopack/utoopack",
       "key": "utoopack"
     },
@@ -1626,23 +1841,29 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 1
       },
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian",
       "key": "hmrGuardian"
     },
     "./node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad": {
       "config": {},
       "time": {
-        "hooks": {},
+        "hooks": {
+          "addHTMLHeadScripts": [
+            0,
+            0,
+            0
+          ]
+        },
         "register": 13
       },
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad",
       "key": "routePreloadOnLoad"
     },
@@ -1654,21 +1875,25 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/forget/forget.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/forget/forget.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/forget/forget",
       "key": "forget"
     },
     "./node_modules/@umijs/preset-umi/dist/features/bundler/bundler": {
       "config": {},
       "time": {
-        "hooks": {},
-        "register": 1
+        "hooks": {
+          "modifyUniBundler": [
+            257
+          ]
+        },
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/features/bundler/bundler.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/features/bundler/bundler.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/features/bundler/bundler",
       "key": "preset-umi:bundler"
     },
@@ -1680,8 +1905,8 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/build.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/build.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/build",
       "key": "build"
     },
@@ -1693,8 +1918,8 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/config/config.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/config/config.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/config/config",
       "key": "config"
     },
@@ -1703,17 +1928,17 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            5
+            6
           ],
           "onStart": [
             0
           ]
         },
-        "register": 28
+        "register": 17
       },
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/dev/dev",
       "key": "dev"
     },
@@ -1725,8 +1950,8 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/help.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/help.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/help",
       "key": "help"
     },
@@ -1738,8 +1963,8 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/lint.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/lint.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/lint",
       "key": "lint"
     },
@@ -1747,12 +1972,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/setup.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/setup.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/setup",
       "key": "setup"
     },
@@ -1760,12 +1985,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/deadcode.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/deadcode.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/deadcode",
       "key": "deadcode"
     },
@@ -1777,8 +2002,8 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/version.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/version.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/version",
       "key": "version"
     },
@@ -1786,12 +2011,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/generators/page.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/generators/page.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/page",
       "key": "generator:page"
     },
@@ -1803,8 +2028,8 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/generators/prettier.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/generators/prettier.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/prettier",
       "key": "generator:prettier"
     },
@@ -1812,12 +2037,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig",
       "key": "generator:tsconfig"
     },
@@ -1829,8 +2054,8 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/generators/jest.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/generators/jest.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/jest",
       "key": "generator:jest"
     },
@@ -1838,12 +2063,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss",
       "key": "generator:tailwindcss"
     },
@@ -1851,12 +2076,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/generators/dva.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/generators/dva.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/dva",
       "key": "generator:dva"
     },
@@ -1868,8 +2093,8 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/generators/component.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/generators/component.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/component",
       "key": "generator:component"
     },
@@ -1877,12 +2102,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/generators/mock.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/generators/mock.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/mock",
       "key": "generator:mock"
     },
@@ -1894,8 +2119,8 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/generators/cypress.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/generators/cypress.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/cypress",
       "key": "generator:cypress"
     },
@@ -1903,12 +2128,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/generators/api.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/generators/api.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/api",
       "key": "generator:api"
     },
@@ -1920,8 +2145,8 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/generators/precommit.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/generators/precommit.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/precommit",
       "key": "generator:precommit"
     },
@@ -1929,12 +2154,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/plugin.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/plugin.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/plugin",
       "key": "command:plugin"
     },
@@ -1942,12 +2167,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/verify-commit.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/verify-commit.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/verify-commit",
       "key": "verifyCommit"
     },
@@ -1959,8 +2184,8 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/preview.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/preview.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/preview",
       "key": "preview"
     },
@@ -1972,8 +2197,8 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu",
       "key": "mfsu-cli"
     },
@@ -1981,12 +2206,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/plugin-run/dist/index.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/plugin-run/dist/index.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "@umijs/plugin-run",
       "key": "run"
     },
@@ -1994,12 +2219,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/registerMethods.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/registerMethods.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/dumi/dist/registerMethods",
       "key": "dumi:registerMethods"
     },
@@ -2007,12 +2232,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/features/configPlugins/index.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/features/configPlugins/index.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/dumi/dist/features/configPlugins/index",
       "key": "index"
     },
@@ -2114,11 +2339,11 @@
             1
           ]
         },
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/features/autoAlias.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/features/autoAlias.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/dumi/dist/features/autoAlias",
       "key": "autoAlias"
     },
@@ -2134,15 +2359,21 @@
             0
           ],
           "onCheck": [
-            1
+            0
+          ],
+          "onGenerateFiles": [
+            0
+          ],
+          "modifyBabelPresetOpts": [
+            0
           ]
         },
-        "register": 4
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/features/derivative.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/features/derivative.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/dumi/dist/features/derivative",
       "key": "dumi:derivative"
     },
@@ -2155,21 +2386,25 @@
         "register": 0
       },
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/compiled/@umijs/plugins/index.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/compiled/@umijs/plugins/index.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "@umijs/plugins",
       "key": "analytics"
     },
     "./node_modules/dumi/dist/features/sideEffects/index": {
       "config": {},
       "time": {
-        "hooks": {},
-        "register": 1
+        "hooks": {
+          "chainWebpack": [
+            0
+          ]
+        },
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/features/sideEffects/index.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/features/sideEffects/index.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/dumi/dist/features/sideEffects/index",
       "key": "dumi:sideEffects"
     },
@@ -2179,14 +2414,17 @@
         "hooks": {
           "modifyConfig": [
             0
+          ],
+          "onGenerateFiles": [
+            1
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/features/exports.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/features/exports.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/dumi/dist/features/exports",
       "key": "dumi:exports"
     },
@@ -2197,15 +2435,27 @@
           "modifyConfig": [
             0,
             0,
+            0
+          ],
+          "registerTechStack": [
+            0
+          ],
+          "onGenerateFiles": [
+            0
+          ],
+          "addRuntimePlugin": [
+            0
+          ],
+          "chainWebpack": [
             1
           ]
         },
-        "register": 13
+        "register": 798
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/features/compile/index.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/features/compile/index.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/dumi/dist/features/compile/index",
       "key": "dumi:compile"
     },
@@ -2220,15 +2470,21 @@
             0
           ],
           "modifyRoutes": [
-            3
+            1
+          ],
+          "addEntryCodeAhead": [
+            0
+          ],
+          "addTmpGenerateWatcherPaths": [
+            0
           ]
         },
-        "register": 2
+        "register": 4
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/features/routes.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/features/routes.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/dumi/dist/features/routes",
       "key": "dumi:routes"
     },
@@ -2237,15 +2493,21 @@
       "time": {
         "hooks": {
           "modifyRoutes": [
+            1
+          ],
+          "addRuntimePlugin": [
             0
+          ],
+          "onGenerateFiles": [
+            2
           ]
         },
         "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/features/meta.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/features/meta.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/dumi/dist/features/meta",
       "key": "meta"
     },
@@ -2258,14 +2520,20 @@
           ],
           "modifyRoutes": [
             0
+          ],
+          "dumi.modifyMetaFiles": [
+            0
+          ],
+          "onGenerateFiles": [
+            1
           ]
         },
         "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/features/tabs.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/features/tabs.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/dumi/dist/features/tabs",
       "key": "tabs"
     },
@@ -2280,14 +2548,31 @@
           "modifyAppData": [
             0,
             2
+          ],
+          "onGenerateFiles": [
+            1,
+            10
+          ],
+          "addEntryCode": [
+            0
+          ],
+          "addEntryCodeAhead": [
+            0
+          ],
+          "addEntryImportsAhead": [
+            0,
+            0
+          ],
+          "addRuntimePluginKey": [
+            0
           ]
         },
-        "register": 29
+        "register": 23
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/features/theme/index.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/features/theme/index.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/dumi/dist/features/theme/index",
       "key": "dumi:theme"
     },
@@ -2308,14 +2593,20 @@
           ],
           "onCheck": [
             0
+          ],
+          "addRuntimePlugin": [
+            0
+          ],
+          "onGenerateFiles": [
+            1
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/features/locales.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/features/locales.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/dumi/dist/features/locales",
       "key": "locales"
     },
@@ -2327,20 +2618,26 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/features/parser.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/features/parser.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/dumi/dist/features/parser",
       "key": "apiParser"
     },
     "./node_modules/dumi/dist/features/assets": {
       "config": {},
       "time": {
-        "hooks": {},
+        "hooks": {
+          "onDevCompileDone": [
+            22,
+            10,
+            29
+          ]
+        },
         "register": 0
       },
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/features/assets.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/features/assets.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/dumi/dist/features/assets",
       "key": "assets"
     },
@@ -2351,8 +2648,8 @@
         "register": 0
       },
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/features/exportStatic.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/features/exportStatic.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/dumi/dist/features/exportStatic",
       "key": "dumi:exportStatic"
     },
@@ -2360,24 +2657,40 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 8
+        "register": 6
       },
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/features/sitemap.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/features/sitemap.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/dumi/dist/features/sitemap",
       "key": "sitemap"
     },
     "./node_modules/dumi/dist/features/html2sketch": {
       "config": {},
       "time": {
-        "hooks": {},
-        "register": 1
+        "hooks": {
+          "addEntryImports": [
+            0,
+            0
+          ],
+          "addRuntimePluginKey": [
+            0
+          ],
+          "onGenerateFiles": [
+            0
+          ],
+          "addHTMLHeadScripts": [
+            20,
+            1,
+            0
+          ]
+        },
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/features/html2sketch.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/features/html2sketch.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/dumi/dist/features/html2sketch",
       "key": "html2sketch"
     },
@@ -2385,12 +2698,12 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/@umijs/core/dist/service/generatePlugin.js",
-      "cwd": "/Users/duchuanyou/Desktop/cursor_ui",
+      "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/@umijs/core/dist/service/generatePlugin.js",
+      "cwd": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui",
       "id": "./node_modules/@umijs/core/dist/service/generatePlugin",
       "key": "generatePlugin"
     }
@@ -2451,10 +2764,10 @@
       ]
     },
     "alias": {
-      "@cui/ui": "/Users/duchuanyou/Desktop/cursor_ui/src"
+      "@cui/ui": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/src"
     }
   },
-  "mainConfigFile": "/Users/duchuanyou/Desktop/cursor_ui/.dumirc.ts",
+  "mainConfigFile": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/.dumirc.ts",
   "config": {
     "routeLoader": {
       "moduleType": "esm"
@@ -2472,18 +2785,18 @@
     "autoCSSModules": true,
     "alias": {
       "umi": "@@/exports",
-      "react": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/react",
-      "react-dom": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/react-dom",
-      "react-router": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/react-router",
-      "react-router-dom": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/react-router-dom",
-      "@cui/ui": "/Users/duchuanyou/Desktop/cursor_ui/src",
-      "@": "/Users/duchuanyou/Desktop/cursor_ui/src",
-      "@@": "/Users/duchuanyou/Desktop/cursor_ui/.dumi/tmp",
-      "regenerator-runtime": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/regenerator-runtime",
+      "react": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/react",
+      "react-dom": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/react-dom",
+      "react-router": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/react-router",
+      "react-router-dom": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/react-router-dom",
+      "@cui/ui": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/src",
+      "@": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/src",
+      "@@": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/.dumi/tmp",
+      "regenerator-runtime": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/regenerator-runtime",
       "dumi$": "@@/dumi/exports",
       "dumi/theme": "dumi/theme-original",
-      "dumi/theme-original": "/Users/duchuanyou/Desktop/cursor_ui/.dumi/tmp/dumi/theme",
-      "dumi/theme-default": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/theme-default"
+      "dumi/theme-original": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/.dumi/tmp/dumi/theme",
+      "dumi/theme-default": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/theme-default"
     },
     "themeConfig": {
       "footer": "Copyright © 2025 | Powered by <a href=\"https://d.umijs.org\" target=\"_blank\" rel=\"noreferrer\">dumi</a>",
@@ -2554,7 +2867,7 @@
       }
     ],
     "conventionRoutes": {
-      "base": "/Users/duchuanyou/Desktop/cursor_ui/.dumi/pages",
+      "base": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/.dumi/pages",
       "exclude": [
         {}
       ]
@@ -2574,12 +2887,12 @@
     "extraBabelIncludes": [
       {},
       {},
-      "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/client/theme-api"
+      "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/client/theme-api"
     ],
     "theme": {
       "dark-selector": "~'[data-prefers-color=\"dark\"]'"
     },
-    "babelLoaderCustomize": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/features/compile/babelLoaderCustomize.js",
+    "babelLoaderCustomize": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/features/compile/babelLoaderCustomize.js",
     "define": {
       "SEARCH_WORKER_CODE": "\"use strict\";(()=>{var P=Object.create;var I=Object.defineProperty;var z=Object.getOwnPropertyDescriptor;var D=Object.getOwnPropertyNames,R=Object.getOwnPropertySymbols,B=Object.getPrototypeOf,E=Object.prototype.hasOwnProperty,L=Object.prototype.propertyIsEnumerable;var O=(e,t,i)=>t in e?I(e,t,{enumerable:!0,configurable:!0,writable:!0,value:i}):e[t]=i,M=(e,t)=>{for(var i in t||(t={}))E.call(t,i)&&O(e,i,t[i]);if(R)for(var i of R(t))L.call(t,i)&&O(e,i,t[i]);return e};var F=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports);var N=(e,t,i,h)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of D(t))!E.call(e,a)&&a!==i&&I(e,a,{get:()=>t[a],enumerable:!(h=z(t,a))||h.enumerable});return e};var W=(e,t,i)=>(i=e!=null?P(B(e)):{},N(t||!e||!e.__esModule?I(i,\"default\",{value:e,enumerable:!0}):i,e));var j=F((K,w)=>{w.exports=function(e){var t={};function i(h){if(t[h])return t[h].exports;var a=t[h]={exports:{},id:h,loaded:!1};return e[h].call(a.exports,a,a.exports,i),a.loaded=!0,a.exports}return i.m=e,i.c=t,i.p=\"\",i(0)}([function(e,t,i){e.exports=i(1)},function(e,t,i){\"use strict\";Object.defineProperty(t,\"__esModule\",{value:!0});var h=i(2);Object.defineProperty(t,\"combineChunks\",{enumerable:!0,get:function(){return h.combineChunks}}),Object.defineProperty(t,\"fillInChunks\",{enumerable:!0,get:function(){return h.fillInChunks}}),Object.defineProperty(t,\"findAll\",{enumerable:!0,get:function(){return h.findAll}}),Object.defineProperty(t,\"findChunks\",{enumerable:!0,get:function(){return h.findChunks}})},function(e,t){\"use strict\";Object.defineProperty(t,\"__esModule\",{value:!0});var i=t.findAll=function(s){var n=s.autoEscape,g=s.caseSensitive,f=g===void 0?!1:g,p=s.findChunks,u=p===void 0?a:p,c=s.sanitize,v=s.searchWords,T=s.textToHighlight;return l({chunksToHighlight:h({chunks:u({autoEscape:n,caseSensitive:f,sanitize:c,searchWords:v,textToHighlight:T})}),totalLength:T?T.length:0})},h=t.combineChunks=function(s){var n=s.chunks;return n=n.sort(function(g,f){return g.start-f.start}).reduce(function(g,f){if(g.length===0)return[f];var p=g.pop();if(f.start<=p.end){var u=Math.max(p.end,f.end);g.push({highlight:!1,start:p.start,end:u})}else g.push(p,f);return g},[]),n},a=function(s){var n=s.autoEscape,g=s.caseSensitive,f=s.sanitize,p=f===void 0?d:f,u=s.searchWords,c=s.textToHighlight;return c=p(c),u.filter(function(v){return v}).reduce(function(v,T){T=p(T),n&&(T=r(T));for(var m=new RegExp(T,g?\"g\":\"gi\"),x=void 0;x=m.exec(c);){var S=x.index,$=m.lastIndex;$>S&&v.push({highlight:!1,start:S,end:$}),x.index===m.lastIndex&&m.lastIndex++}return v},[])};t.findChunks=a;var l=t.fillInChunks=function(s){var n=s.chunksToHighlight,g=s.totalLength,f=[],p=function(v,T,m){T-v>0&&f.push({start:v,end:T,highlight:m})};if(n.length===0)p(0,g,!1);else{var u=0;n.forEach(function(c){p(u,c.start,!1),p(c.start,c.end,!0),u=c.end}),p(u,g,!1)}return f};function d(o){return o}function r(o){return o.replace(/[\\-\\[\\]\\/\\{\\}\\(\\)\\*\\+\\?\\.\\\\\\^\\$\\|]/g,\"\\\\$&\")}}])});var C=W(j());var H=\"tab\";function k(e,t,i,h,a){let l=a!==void 0;return h.reduce((r,o)=>(o.tocIndex===a&&(r[o.paraId]=(r[o.paraId]||\"\").concat(o.value)),r),[]).filter(Boolean).length||l?{rawTitle:e,title:t,link:i,paragraphs:h.reduce((r,o)=>{var s,n;return o.tocIndex===a&&((n=r[s=o.paraId])!=null||(r[s]=\"\"),r[o.paraId]+=o.value),r},[]).filter(Boolean)}:null}function y(e){return[e.title,e.subtitle].filter(Boolean).join(\" \")}function _(e,t,i){let h=[],a=Object.values(t).reduce((l,d)=>{var r,o;return d.asset&&((o=l[r=d.routeId])!=null||(l[r]=[]),l[d.routeId].push(d)),l},{});return Object.values(e).forEach(l=>{var d;if(\"meta\"in l&&!(\"isLayout\"in l)){let r=l.meta,o=l.path.replace(/^([^/])/,\"/$1\")||\"/\",s=i.find(u=>o===u.link||o.startsWith(`${u.activePath}/`)),n=(a[l.id]||[]).map(u=>{var c;return(c=u.asset)==null?void 0:c.id}),g=k(\"\",y(r.frontmatter),o,r.texts),f=r.toc.reduce((u,c,v)=>{if(!n.includes(c.id)&&c.depth>=1){let T=y(r.frontmatter);c.depth!==1&&(T=`${T} - ${c.title}`),u.push(k(c.title,T,`${o}#${c.id}`,r.texts,v))}return u},[]),p=(r.tabs||[]).reduce((u,{key:c,meta:v})=>{let T=k(\"\",`${y(r.frontmatter)} - ${v.frontmatter.title}`,`${o}?${H}=${c}`,v.texts);return T&&u.push(T),u.push(...v.toc.map((m,x)=>k(m.title,`${y(r.frontmatter)} - ${v.frontmatter.title} - ${m.title}`,`${o}?${H}=${c}#${m.id}`,v.texts,x))),u},[]);h.push({navTitle:s==null?void 0:s.title,navOrder:s?i.indexOf(s):1/0,title:y(r.frontmatter),link:o,sections:[...g?[g]:[],...f,...p],demos:((d=a[l.id])==null?void 0:d.map(u=>({link:`${o}#${u.asset.id}`,rawTitle:u.asset.title||\"\",title:u.asset.title||y(r.frontmatter),description:u.asset.description||\"\",keywords:u.asset.keywords||[]})))||[]})}}),h}function b(e=\"\",t,i=1){let h=(0,C.findAll)({textToHighlight:e,searchWords:t,autoEscape:!0}),a={};return[h.map(({start:l,end:d,highlight:r},o)=>{let s={text:e.slice(l,d)};return o===0&&!r&&h.length>1&&s.text.length>20&&(s.text=`...${s.text.slice(-20)}`),r&&(s.highlighted=!0,a[t.find(n=>s.text.includes(n))]=i),s}),a]}function Y(e,t){let i=t.split(\" \"),h=new RegExp(t.replace(/[.*+?^${}()|[\\]\\\\]/g,\"\\\\$&\").replace(/\\s+/g,\"|\"),\"i\"),a={};return e.forEach(l=>{var o,s;let d=l.title,r=[];if(l.sections.forEach(n=>{for(let g of n.paragraphs)if(h.test(g)){let[f,p]=b(n.title,i,10),[u,c]=b(g,i);r.push({type:\"content\",link:n.link,priority:Object.values(M(M({},c),p)).reduce((v,T)=>v+T,0),highlightTitleTexts:f,highlightTexts:u,pageTitle:d});return}if(h.test(n.rawTitle)&&!h.test(l.title)){let[g,f]=b(n.title,i,10);r.push({type:\"title\",link:n.link,priority:Object.values(f).reduce((p,u)=>p+u,0),highlightTitleTexts:g,highlightTexts:b(n.paragraphs[0]||\"\",i)[0],pageTitle:d})}}),l.demos.forEach(n=>{if(h.test(n.rawTitle)||h.test(n.description)){let[g,f]=b(n.title,i,10),[p,u]=b(n.description,i);r.push({type:\"demo\",link:n.link,priority:Object.values(M(M({},u),f)).reduce((c,v)=>c+v,0),highlightTitleTexts:g,highlightTexts:p,pageTitle:d})}}),h.test(l.title)){let[n,g]=b(l.title,i,100);r.push({type:\"page\",link:l.link,priority:Object.values(g).reduce((f,p)=>f+p,0),highlightTitleTexts:n,highlightTexts:b(((o=l.sections[0])==null?void 0:o.paragraphs[0])||\"\",i)[0],pageTitle:d})}if(r.length){let n=l.navTitle||\"$ROOT\";(s=a[n])!=null||(a[n]={title:l.navTitle,priority:l.navOrder*1e3,hints:[]}),a[n].hints.push(...r)}}),Object.values(a).forEach(({hints:l})=>{l.sort((d,r)=>r.priority-d.priority)}),Object.values(a).sort((l,d)=>d.priority-l.priority)}var A;self.onmessage=({data:e})=>{switch(e.action){case\"generate-metadata\":A=_(e.args.routes,e.args.demos,e.args.nav);break;case\"get-search-result\":self.postMessage(Y(A,e.args.keywords));break;default:}};})();\n"
     }
@@ -2590,20 +2903,20 @@
       "path": "*",
       "absPath": "/*",
       "parentId": "DocLayout",
-      "file": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/client/pages/404.js"
+      "file": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/client/pages/404.js"
     },
     "dumi-context-layout": {
       "id": "dumi-context-layout",
       "path": "/",
-      "file": "/Users/duchuanyou/Desktop/cursor_ui/.dumi/tmp/dumi/theme/ContextWrapper",
+      "file": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/.dumi/tmp/dumi/theme/ContextWrapper",
       "absPath": "/",
       "isLayout": true,
-      "__absFile": "/Users/duchuanyou/Desktop/cursor_ui/.dumi/tmp/dumi/theme/ContextWrapper"
+      "__absFile": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/.dumi/tmp/dumi/theme/ContextWrapper"
     },
     "DocLayout": {
       "id": "DocLayout",
       "path": "/",
-      "file": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/theme-default/layouts/DocLayout/index.js",
+      "file": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/theme-default/layouts/DocLayout/index.js",
       "parentId": "dumi-context-layout",
       "absPath": "/",
       "isLayout": true
@@ -2612,77 +2925,77 @@
       "path": "components/gantt-chart",
       "id": "docs/components/gantt-chart",
       "parentId": "DocLayout",
-      "file": "/Users/duchuanyou/Desktop/cursor_ui/docs/components/gantt-chart.md",
+      "file": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/docs/components/gantt-chart.md",
       "absPath": "/components/gantt-chart"
     },
     "docs/components/checkbox": {
       "path": "components/checkbox",
       "id": "docs/components/checkbox",
       "parentId": "DocLayout",
-      "file": "/Users/duchuanyou/Desktop/cursor_ui/docs/components/checkbox.md",
+      "file": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/docs/components/checkbox.md",
       "absPath": "/components/checkbox"
     },
     "docs/components/teleport": {
       "path": "components/teleport",
       "id": "docs/components/teleport",
       "parentId": "DocLayout",
-      "file": "/Users/duchuanyou/Desktop/cursor_ui/docs/components/teleport.md",
+      "file": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/docs/components/teleport.md",
       "absPath": "/components/teleport"
     },
     "docs/components/button": {
       "path": "components/button",
       "id": "docs/components/button",
       "parentId": "DocLayout",
-      "file": "/Users/duchuanyou/Desktop/cursor_ui/docs/components/button.md",
+      "file": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/docs/components/button.md",
       "absPath": "/components/button"
     },
     "docs/components/charts": {
       "path": "components/charts",
       "id": "docs/components/charts",
       "parentId": "DocLayout",
-      "file": "/Users/duchuanyou/Desktop/cursor_ui/docs/components/charts.md",
+      "file": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/docs/components/charts.md",
       "absPath": "/components/charts"
     },
     "docs/components/dialog": {
       "path": "components/dialog",
       "id": "docs/components/dialog",
       "parentId": "DocLayout",
-      "file": "/Users/duchuanyou/Desktop/cursor_ui/docs/components/dialog.md",
+      "file": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/docs/components/dialog.md",
       "absPath": "/components/dialog"
     },
     "docs/components/group": {
       "path": "components/group",
       "id": "docs/components/group",
       "parentId": "DocLayout",
-      "file": "/Users/duchuanyou/Desktop/cursor_ui/docs/components/group.md",
+      "file": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/docs/components/group.md",
       "absPath": "/components/group"
     },
     "docs/components/input": {
       "path": "components/input",
       "id": "docs/components/input",
       "parentId": "DocLayout",
-      "file": "/Users/duchuanyou/Desktop/cursor_ui/docs/components/input.md",
+      "file": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/docs/components/input.md",
       "absPath": "/components/input"
     },
     "docs/components/table": {
       "path": "components/table",
       "id": "docs/components/table",
       "parentId": "DocLayout",
-      "file": "/Users/duchuanyou/Desktop/cursor_ui/docs/components/table.md",
+      "file": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/docs/components/table.md",
       "absPath": "/components/table"
     },
     "docs/components/form": {
       "path": "components/form",
       "id": "docs/components/form",
       "parentId": "DocLayout",
-      "file": "/Users/duchuanyou/Desktop/cursor_ui/docs/components/form.md",
+      "file": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/docs/components/form.md",
       "absPath": "/components/form"
     },
     "docs/components/icon": {
       "path": "components/icon",
       "id": "docs/components/icon",
       "parentId": "DocLayout",
-      "file": "/Users/duchuanyou/Desktop/cursor_ui/docs/components/icon.md",
+      "file": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/docs/components/icon.md",
       "absPath": "/components/icon"
     },
     "demo-render": {
@@ -2690,7 +3003,7 @@
       "path": "~demos/:id",
       "absPath": "/~demos/:id",
       "parentId": "dumi-context-layout",
-      "file": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/client/pages/Demo/index.js"
+      "file": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/client/pages/Demo/index.js"
     }
   },
   "apiRoutes": {},
@@ -2703,15 +3016,22 @@
     "cliName": "umi"
   },
   "bundleStatus": {
-    "done": false
+    "done": true,
+    "progresses": [
+      {
+        "percent": 1,
+        "status": "",
+        "details": []
+      }
+    ]
   },
   "react": {
     "version": "18.3.1",
-    "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/react"
+    "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/react"
   },
   "react-dom": {
     "version": "18.3.1",
-    "path": "/Users/duchuanyou/Desktop/cursor_ui/node_modules/react-dom"
+    "path": "/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/react-dom"
   },
   "appJS": null,
   "locale": "C",
@@ -2719,13 +3039,109 @@
   "globalJS": [],
   "overridesCSS": [],
   "bundler": "webpack",
+  "git": {
+    "originUrl": "https://github.com/duwenlong1995/react-ui.git"
+  },
   "framework": "react",
   "typescript": {
     "tsVersion": "5.9.3",
     "tslibVersion": "2.8.1"
   },
-  "port": 8000,
+  "port": 8001,
   "host": "0.0.0.0",
   "ip": "192.168.1.9",
-  "_2LevelNavAvailable": true
+  "_2LevelNavAvailable": true,
+  "exportHtmlData": [
+    {
+      "route": {
+        "path": "/404"
+      },
+      "prerender": true,
+      "file": "404.html"
+    },
+    {
+      "route": {
+        "path": "/components/gantt-chart"
+      },
+      "prerender": true,
+      "file": "components/gantt-chart/index.html"
+    },
+    {
+      "route": {
+        "path": "/components/checkbox"
+      },
+      "prerender": true,
+      "file": "components/checkbox/index.html"
+    },
+    {
+      "route": {
+        "path": "/components/teleport"
+      },
+      "prerender": true,
+      "file": "components/teleport/index.html"
+    },
+    {
+      "route": {
+        "path": "/components/button"
+      },
+      "prerender": true,
+      "file": "components/button/index.html"
+    },
+    {
+      "route": {
+        "path": "/components/charts"
+      },
+      "prerender": true,
+      "file": "components/charts/index.html"
+    },
+    {
+      "route": {
+        "path": "/components/dialog"
+      },
+      "prerender": true,
+      "file": "components/dialog/index.html"
+    },
+    {
+      "route": {
+        "path": "/components/group"
+      },
+      "prerender": true,
+      "file": "components/group/index.html"
+    },
+    {
+      "route": {
+        "path": "/components/input"
+      },
+      "prerender": true,
+      "file": "components/input/index.html"
+    },
+    {
+      "route": {
+        "path": "/components/table"
+      },
+      "prerender": true,
+      "file": "components/table/index.html"
+    },
+    {
+      "route": {
+        "path": "/components/form"
+      },
+      "prerender": true,
+      "file": "components/form/index.html"
+    },
+    {
+      "route": {
+        "path": "/components/icon"
+      },
+      "prerender": true,
+      "file": "components/icon/index.html"
+    },
+    {
+      "route": {
+        "path": "/~demos/:id"
+      },
+      "prerender": true,
+      "file": "~demos/:id/index.html"
+    }
+  ]
 }

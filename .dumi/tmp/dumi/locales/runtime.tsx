@@ -3,8 +3,8 @@
 // DO NOT CHANGE IT MANUALLY!
 import { history } from 'dumi';
 import React, { useState, useLayoutEffect, useCallback, type ReactNode } from 'react';
-import { RawIntlProvider, createIntl, createIntlCache } from '/Users/duchuanyou/Desktop/cursor_ui/node_modules/react-intl';
-import { useIsomorphicLayoutEffect } from '/Users/duchuanyou/Desktop/cursor_ui/node_modules/dumi/dist/client/theme-api/utils.js'
+import { RawIntlProvider, createIntl, createIntlCache } from '/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/react-intl';
+import { useIsomorphicLayoutEffect } from '/Users/duchuanyou/Desktop/未命名文件夹 4/react-ui/node_modules/dumi/dist/client/theme-api/utils.js'
 import { locales, messages } from './config';
 
 const cache = createIntlCache();
