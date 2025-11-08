@@ -1,0 +1,92 @@
+@import 'tailwindcss';
+@source "../**/*.ts";
+@source "../**/*.tsx";
+@source "../../docs/**/*.md";
+@source "../../docs/**/*.mdx";
+@source "../../docs/**/*.tsx";
+@source "../../docs/**/*.jsx";
+
+:root {
+  /* Primary Colors - Modern Blue Theme */
+  --primary-color: #2563eb;
+  --primary-color-hover: #1d4ed8;
+  --primary-color-active: #1e40af;
+  --outline-color: #ffffff;
+  --link-color: #2563eb;
+
+  /* Background Colors */
+  --bg-color: #ffffff;
+  --bg-opacity-color: rgb(0 0 0 / 45%);
+  --danger-color: #dc2626;
+  --primary-danger-hover: #b91c1c;
+  --table-header-bg: #f8fafc;
+  --table-header-text: #475569;
+  --table-row-bg: #ffffff;
+  --table-row-alt-bg: #f1f5f9;
+  --table-row-hover-bg: #e2e8f0;
+  --table-border-color: var(--border-color);
+
+  /* Border Colors */
+  --outline-color-border: #e5e7eb;
+  --outline-color-hover: #f8fafc;
+  --border-color: #e2e8f0;
+  --outline-color: #ffffff;
+
+  /* Text Colors */
+  --text-color: #1e293b;
+  --text-color-secondary: #64748b;
+  --text-color-muted: #94a3b8;
+  --code-color: #1e293b;
+
+  /* Semantic Colors */
+  --success-color: #059669;
+  --success-color-hover: #047857;
+  --warning-color: #d97706;
+  --warning-color-hover: #b45309;
+  --info-color: #2563eb;
+  --info-color-hover: #1d4ed8;
+
+  /* Gray Scale */
+  --color-black-0: #000000;
+  --color-black-1: #09090b;
+  --color-black-2: #18181b;
+  --color-black-3: #2f2f37;
+  --color-black-4: #3d3d43;
+  --color-black-5: #52525b;
+  --color-black-6: #6b6b73;
+  --color-black-7: #85858c;
+  --color-black-8: #a3a3aa;
+  --color-black-9: #c2c2c9;
+  --color-black-10: #e0e0e6;
+  --color-black-11: #f4f4f5;
+  --color-black-12: #ffffff;
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+  /* Component States */
+  --button-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --button-shadow-hover: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --button-shadow-focus: 0 0 0 3px rgb(37 99 235 / 0.1);
+
+  /* Animations */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}

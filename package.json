@@ -1,0 +1,76 @@
+{
+  "name": "@cui/ui",
+  "version": "0.1.0",
+  "private": false,
+  "description": "React TypeScript component library built with tsup",
+  "keywords": [
+    "react",
+    "typescript",
+    "component-library",
+    "tsup"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "peerDependencies": {
+    "react": ">=17 || >=18",
+    "react-dom": ">=17 || >=18"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.14",
+    "@tailwindcss/postcss": "^4.1.14",
+    "@types/react": "^18.3.26",
+    "@types/react-dom": "^18.3.7",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^9.2.1",
+    "dumi": "^2.4.21",
+    "esbuild-plugin-svgr": "^3.1.1",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^4.1.15",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "build": "npm run build:css && tsup",
+    "build:css": "tailwindcss -c tailwind.config.ts -i src/styles/tailwind.css -o public/styles.css --minify",
+    "dev": "tsup --watch",
+    "dev:css": "tailwindcss -c tailwind.config.ts -i src/styles/tailwind.css -o public/styles.css --watch",
+    "docs:dev": "concurrently \"npm:dev:css\" \"dumi dev\"",
+    "docs:build": "dumi build",
+    "docs:preview": "dumi preview",
+    "clean": "rm -rf dist",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "format": "prettier --write .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.19",
+    "echarts": "^6.0.0"
+  }
+}

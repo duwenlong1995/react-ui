@@ -1,0 +1,40 @@
+/* Input component styles */
+.input-container {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  inset-y: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 0.75rem;
+  pointer-events: none;
+}
+
+.input-error {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  color: rgb(239 68 68); /* red-500 */
+}
+
+.input-focus-ring {
+  outline: none;
+  box-shadow: 0 0 0 2px rgb(37 99 235 / 0.2); /* blue-500 with opacity */
+}
+
+/* Breathing animation for focus state */
+@keyframes inputBreathing {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgb(37 99 235 / 0.2);
+  }
+  50% {
+    box-shadow: 0 0 0 4px rgb(37 99 235 / 0.3);
+  }
+}
+
+.input-breathing:focus {
+  animation: inputBreathing 2s ease-in-out infinite;
+}
